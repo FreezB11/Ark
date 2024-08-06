@@ -1,9 +1,12 @@
 {
   "name": "ark",
   "version": "0.0.1",
-  "main": "app.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node main.ts",
+    "node" : "nodemon main.ts",
+    "render" : "nodemon render.ts"
   },
   "author": "hsay4",
   "license": "ISC",
